@@ -1,0 +1,7 @@
+print("hello world!")
+print("My name is jamal.")
+print("im 12.")
+print("and im in 6th grade.")
+
+
+
