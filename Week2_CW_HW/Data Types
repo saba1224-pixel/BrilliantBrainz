@@ -1,0 +1,111 @@
+
+1. Python Data Types
+
+
+Python has different types of data to store values. Here are the most common ones:
+
+
+
+🔢 Integer (int)
+
+Used to store whole numbers.
+
+age = 20
+print(age)       # Output: 20
+print(type(age)) # Output: <class 'int'>
+
+🔣 Float (float)
+
+Used to store decimal numbers.
+
+price = 9.99
+print(price)       # Output: 9.99
+print(type(price)) # Output: <class 'float'>
+
+📝 String (str)
+
+Used to store text (characters).
+
+name = "Alice"
+print(name)        # Output: Alice
+print(type(name))  # Output: <class 'str'>
+
+✅ Boolean (bool)
+
+Stores True or False values.
+
+is_online = True
+print(is_online)       # Output: True
+print(type(is_online)) # Output: <class 'bool'>
+
+📦 List (list)
+
+Stores a collection of items (like an array).
+
+fruits = ["apple", "banana", "mango"]
+print(fruits)       # Output: ['apple', 'banana', 'mango']
+print(type(fruits)) # Output: <class 'list'>
+
+🗂️ 
+A dictionary is a collection of key-value pairs. It allows you to store data with a label (key) that points to a value.
+
+
+
+✅ Syntax:
+my_dict = {
+    "key1": "value1",
+    "key2": "value2"
+}
+🔍 Example:
+student = {
+    "name": "Ali",
+    "age": 16,
+    "grade": "10th"
+}
+print(student)
+📤 Output:
+
+{'name': 'Ali', 'age': 16, 'grade': '10th'}
+➕ 
+1. Add a New Item
+
+
+You can add a new key-value pair like this:
+
+student["school"] = "Greenwood High"
+print(student)
+📤 Output:
+
+{'name': 'Ali', 'age': 16, 'grade': '10th', 'school': 'Greenwood High'}
+🔁 
+2. Update an Existing Item
+
+
+Just assign a new value to an existing key:
+
+student["age"] = 17
+print(student)
+📤 Output:
+
+{'name': 'Ali', 'age': 17, 'grade': '10th', 'school': 'Greenwood High'}
+❌ 
+3. Delete an Item
+
+
+You can delete a key-value pair using del:
+
+del student["grade"]
+print(student)
+📤 Output:
+
+{'name': 'Ali', 'age': 17, 'school': 'Greenwood High'}
+Or using .pop() if you also want to get the removed value:
+
+removed_value = student.pop("school")
+print(removed_value)  # Output: Greenwood High
+print(student)
+
+
+
+
+
