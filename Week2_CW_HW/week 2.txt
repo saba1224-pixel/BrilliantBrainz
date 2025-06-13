@@ -1,0 +1,28 @@
+book={"title":"Harry Potter","pages":293,"author":"jk rowling","avalible":True}
+print(book["avalible"])
+
+
+
+
+student={"name":"jamal","age":15 }
+student["age"]=33 
+print(student)
+del student["age"]
+print(student)
+
+#string manipulation
+message="hello, python world!"
+print("original message:",message)
+print("length of message:",len(message))
+print("Uppercase;",message.upper())
+print("Lowercase;",message.lower())
+print("Does the message contain world?","World"in message)
+print("first-5 characters:",message[:5])
+
+greeting="hi there!"
+combined=greeting+" "+message
+print(combined)
+new_message=combine.replace("there!
+","saba")
+print(new_message)
+
