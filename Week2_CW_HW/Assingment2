@@ -1,0 +1,12 @@
+1. Define a list of vowels. Print it.
+2. Create a dictionary movie, print it with key values pairs as below  
+        movie name as Avegners 
+        year as 2018
+        duration as 3.5
+        director J.J. Abrams
+
+3. delete director from your dictionary movie. Print the result 
+4. add list of actors in your dictonary with two values. Print it. 
+5. Define string as title with value Avengers. Create another string as message with value Assemble
+  Concatenate and print the result string.
+6. Print the length of the result string from Question 5. Print the word Assemble by using last 8 characters.
