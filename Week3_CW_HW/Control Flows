@@ -1,0 +1,32 @@
+Control Flow in Python
+
+
+Control flow lets your program make decisions and repeat actions.
+
+📌 
+if
+ Statement
+
+
+Used to make decisions.
+
+age = 18
+if age >= 18:
+    print("You can vote!")
+else:
+    print("You are too young to vote.")
+🔁 for Loop
+
+Used to repeat a block of code a specific number of times.
+
+for i in range(5):
+    print("Hello!")  # Prints "Hello!" five times
+🔁 while Loop
+
+
+Repeats code as long as a condition is true.
+
+count = 0
+while count < 3:
+    print("Counting:", count)
+    count += 1
