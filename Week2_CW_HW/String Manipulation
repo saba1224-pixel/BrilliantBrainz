@@ -1,0 +1,92 @@
+1. 
+Accessing Characters
+
+
+You can access characters using indexing (starts from 0):
+
+text = "Hello"
+print(text[0])   # Output: H
+print(text[-1])  # Output: o (last character)
+🔹 2. 
+Slicing Strings
+
+
+You can get a part of a string using slicing:
+
+text = "Python"
+print(text[0:3])   # Output: Pyt (from index 0 up to 3, not including 3)
+print(text[2:])    # Output: thon (from index 2 to end)
+🔹 3. 
+String Methods
+
+
+Python has many built-in string methods:
+
+Method
+
+Description
+
+Example
+
+.lower()
+
+Converts to lowercase
+
+"Hello".lower() → "hello"
+
+.upper()
+
+Converts to uppercase
+
+"hello".upper() → "HELLO"
+
+.strip()
+
+Removes whitespace from ends
+
+"  text  ".strip() → "text"
+
+.replace(a, b)
+
+Replaces a with b
+
+"blue sky".replace("blue", "red") → "red sky"
+
+.find(substring)
+
+Returns index of first occurrence
+
+"banana".find("na") → 2
+
+.split()
+
+Splits into a list
+
+"a,b,c".split(",") → ['a','b','c']
+
+.join()
+
+Joins a list into a string
+
+" ".join(['Hello', 'World']) → "Hello World"
+
+🔹 4. 
+String Concatenation
+
+
+You can combine strings using +:
+
+first = "Good"
+second = "Morning"
+result = first + " " + second
+print(result)  # Output: Good Morning
+🔹 5. 
+Using f-strings (String Formatting)
+
+
+This makes inserting variables into strings easy:
+
+name = "Ali"
+age = 16
+print(f"My name is {name} and I am {age} years old.")
+# Output: My name is Ali and I am 16 years old.
