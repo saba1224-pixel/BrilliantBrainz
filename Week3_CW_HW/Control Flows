@@ -15,12 +15,33 @@ if age >= 18:
     print("You can vote!")
 else:
     print("You are too young to vote.")
+
+
+# Program to check if a number is even or odd
+number = int(input("Enter a number: "))
+if number % 2 == 0:
+print(f"{number} is even")
+else:
+print(f"{number} is odd")
+
+
+
 🔁 for Loop
 
 Used to repeat a block of code a specific number of times.
 
 for i in range(5):
     print("Hello!")  # Prints "Hello!" five times
+
+
+# Program to print multiplication table of a number
+number = int(input("Enter a number for its multiplication table: "))
+print(f"Multiplication table of {number}:")
+for i in range(1, 11):
+print(f"{number} x {i} = {number*i}")
+
+
+
 🔁 while Loop
 
 
