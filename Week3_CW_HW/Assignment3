@@ -1,0 +1,48 @@
+1. Write a program that:
+
+Creates a list called colors containing ["red", "green", "blue", "yellow"].
+
+Prints the first and last elements of the list.
+
+
+2. Write a program that:
+
+Creates an empty list called numbers.
+
+Uses a for loop to add the numbers 1 to 5 to the list.
+
+Prints the resulting list.
+
+
+3. Write a program that:
+
+Creates a list fruits = ["apple", "banana", "kiwi", "mango"].
+
+Removes "banana" and "mango" from the list.
+
+Prints the updated list.
+
+
+4. Write a program that:
+
+Creates a list of numbers like [8, 3, 5, 1, 2].
+
+Sorts the list in ascending order and prints it.
+
+
+5. Write a program that:
+
+Creates a list of numbers [10, 20, 30, 40, 50, 60].
+
+Prints a new list containing only the middle part (from index 1 to index 4).
+
+
+6. Write a program that:
+
+Define alist of numbers
+
+Prints only the even numbers using a for-loop and an if-statement.
+
+
+7. Print the multiplication table of 5. Range from 5 and end at a number of your choice. 
+
