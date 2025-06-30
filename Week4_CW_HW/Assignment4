@@ -1,1 +1,48 @@
+Fibonacci Series
 
+
+📚 What is the Fibonacci Series?
+
+
+The Fibonacci series is a sequence of numbers where:
+
+The first two numbers are 0 and 1.
+
+Each number after that is the sum of the two previous numbers.
+
+0, 1, 1, 2, 3, 5, 8, 13, 21, ...
+
+
+# Generate Fibonacci numbers between 1 and 50 using a for loop
+
+# Step 1: Set the first two numbers
+first = 0
+second = 1
+
+# Step 2: Use a for loop to generate numbers
+for i in range(20): # Limit iterations to avoid infinite loop
+next_number = first + second # Add the last two numbers
+
+# Move the numbers one step forward
+first = second
+second = next_number
+
+# Print only if in range 1 to 50
+if next_number >= 1 and next_number <= 50:
+print(next_number)
+
+
+####  Your Task  #####
+
+1) Make a table for the values of varaible first, second, next_number 
+Hint:
+Iteration     first    second    next_number
+1              0        1        1
+2              1        1        2      
+3              1        2        3
+
+2) What is the minimum range values we can give, instead of 20.
+
+Bonus Question
+
+3) Generate Fibonacci series using a while loop. 
